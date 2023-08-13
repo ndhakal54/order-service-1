@@ -28,7 +28,7 @@ public class OrderServiceApplication {
 
     @GetMapping("/price")
     public String ViewForm(Model model) {
-        int a = 7;
+        int a = 8;
         int b = 8;
 
         return "Sum of " + a + " and " + b + " is = " + (a+b);
